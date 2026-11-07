@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Local environment variables (keep example templates)
+.env
+.env.*
+!.env.example
+
+# Build output and caches
+dist/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system and archive metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
